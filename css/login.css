@@ -1,0 +1,11 @@
+.x {
+  background-color: #FFD662;
+  color: black;
+  width:100%;
+  height:80%;
+  font-size:15px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+

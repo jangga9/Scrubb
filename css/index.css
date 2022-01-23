@@ -1,0 +1,284 @@
+i*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+
+
+.welcome-text{
+    position:absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: left;
+}
+
+.welcome-text h1{
+    text-align: left;
+    color:black;
+    font-size: 40px;
+}
+
+.welcome-text a{
+    border-radius: 12px;
+    background-color: #dd9d12;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+.explore{
+    height: 20px;
+    width: 20px;
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.split-page{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left{
+    left:0;
+    background-color: #ffffff;
+}
+
+.right{
+    right:0;
+    background-color: #ffffff;
+}
+
+.centered{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 500px ;
+}
+
+.centered img{
+    width: 500px;
+    border-radius: 50%;
+}
+
+
+.buttonmember{
+
+    position: relative;
+    background-color: #F05945;
+    border: none;
+    color: #484745;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+
+.buttonadmin{
+
+    position: relative;
+    background-color: #5EAAA8;
+    border: none;
+    color: #484745;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+.buttonadmin:hover{
+    opacity: 1;
+}
+
+
+.buttonmember:hover{
+    opacity: 1;
+}
+
+.hello{
+    margin:0;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.description{
+
+    font-size: 20px;
+    font-weight: 600;
+}
+*--------------------------------------nav bar ---------------------------------*/
+.container{
+	max-width: 100%;
+    max-height: 20%;
+	margin:auto;
+
+}
+
+.navlogo{
+    flex:1;
+    height: auto;
+    width: auto;
+	float: left;
+}
+
+.navlogo img{
+    width: 100px;
+    float: left;
+    height: auto;
+    top: 20px; /* your required value */
+    left: 0px;
+    width: 150px;
+    position: absolute;
+    border: #484745;
+}
+
+.navbar{
+    width: 2000px;
+	background-color:#FAE7D5;
+    font-weight: bold;
+	padding:20px;
+}
+
+nav{
+	flex:1;
+	text-align:right;
+}
+
+nav ul{
+	display: inline-block;
+	list-style-type:none;
+}
+
+nav ul li{
+	display:inline-block;
+	margin-right:20px;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+}
+
+nav form input{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.navbar li a:hover {
+	background: rgb(177, 177, 177);
+    color:rgb(83, 83, 83);
+}
+
+.navbar li a img:hover {
+	background: rgb(177, 177, 177);
+    color:rgb(83, 83, 83);
+}
+.NavImage img{
+    width: 30px;
+    float: left;
+    height: auto;
+    text-align:right;
+}
+
+/*-------------------------------------- nav bar----------------------------------*/
+/*-------------------------------------- Home ----------------------------------*/
+.outterlayer{
+    width:100%;
+    height:10;
+    float: left;
+    background-color: #ffffff;
+}
+.filtericon{
+    float: right;
+    width:50;
+    height:10;
+    background-color: #F05945;
+    padding-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.filtericon img{
+    float: left;
+    margin: 10px;
+    height: auto;
+    width: 30px;
+}
+.top5container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.top5{
+    height: 500px;
+    width: 70%;
+    background-color: #484745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.bannercontainer{
+    font-weight: bold;
+    overflow: hidden;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #acabaa;
+    margin:10px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+/*-------------------------------------- end Home ----------------------------------*/

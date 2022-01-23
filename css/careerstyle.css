@@ -1,0 +1,58 @@
+
+
+/*******************************************/
+/********* position available CSS **********/
+/******************************************/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+    background-color: none;
+    padding: 10px;
+    
+  
+  }
+  
+  .grid-container > div {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+
+    box-shadow: 0.5px 0.5px;
+    border-radius: 25px;
+  }
+
+
+/*******************************/
+/********* work CSS **********/
+/*******************************/
+.work {
+    position: relative;
+
+    width: 100%;
+    padding: 45px 0;
+    column-count: 2;
+    column-gap: 40px;
+    margin-left: 50px;
+    
+}
+
+.work .buttonn{
+    text-align: right;
+    padding: 8px;
+    font-size: 18px;
+    margin-left: 280px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #00539C;
+    border-radius: 9px;
+    transition: .3s;
+}
+
+.work .buttonn:hover {
+    color: #000000;
+    background: #ffd900;
+}
+
