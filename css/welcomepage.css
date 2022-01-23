@@ -1,0 +1,149 @@
+
+
+body{
+    font-family:'Montserrat', sans-serif;
+    background-color: #FFD662;
+}
+
+
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+
+
+.welcome-text{
+    position:absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: left;
+}
+
+.welcome-text h1{
+    text-align: left;
+    color:black;
+    font-size: 40px;
+}
+
+.welcome-text a{
+    border-radius: 12px;
+    background-color: #dd9d12;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+.explore{
+    height: 20px;
+    width: 20px;
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.split-page{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left{
+    left:0;
+    background-color: #ffffff;
+}
+
+.right{
+    right:0;
+    background-color: #ffffff;
+}
+
+.centered{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 500px ;
+}
+
+.centered img{
+    width: 500px;
+    border-radius: 50%;
+}
+
+
+.buttonmember{
+
+    position: relative;
+    background-color: #FFD662;
+    border: none;
+    color: #484745;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+
+.buttonadmin{
+
+    position: relative;
+    background-color: #FFD662;
+    border: none;
+    color: #484745;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+.buttonadmin:hover{
+    opacity: 1;
+}
+
+
+.buttonmember:hover{
+    opacity: 1;
+}
+
+.hello{
+    margin:0;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.description{
+
+    font-size: 20px;
+    font-weight: 600;
+}

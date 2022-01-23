@@ -1,0 +1,71 @@
+
+/*************************************/
+/***container for customer review*****/
+/*************************************/
+
+.form-container{
+    width: 100%;
+    border-color:red;
+    border-style: none;
+    overflow: auto;
+}
+.feedback-container{
+    border-style: none;
+    overflow: auto;
+    border-color: #030e6d;
+    float: right;
+    margin:10px;
+}
+
+/*Table for customer review*/
+.table-form table  tr td{
+    border:#000000;
+    border-style: none;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.table-form input{
+    border-radius: 5px;
+    width: 300px;
+    border-style: solid;
+}
+
+.message-input{
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+    border-style: solid;
+}
+
+.choose-type{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.submit-button{
+    padding: 5px;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #170b83;
+    width: 200px;
+    text-align: center;
+}
+
+/*Decoration picture for customer review*/
+.deco-pic{
+    height: 500px;
+    width: 50%;
+    border-style: none;
+    padding-top: 20px;
+    float: right;
+    overflow:auto;
+}
+
+.deco-pic img{
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+}
